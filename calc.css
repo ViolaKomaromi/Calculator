@@ -1,0 +1,129 @@
+*,*::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+
+body{
+    background-image: url(img/marble.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: 'Special Elite', cursive;
+  }
+  
+  
+  .calculator {
+    background-image:url(img/green.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid rgb(109, 108, 108);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    font-family: 'Special Elite', cursive;
+  }
+  
+  .calculator-screen {
+    width: 100%;
+    font-size: 5rem;
+    height: 80px;
+    border: none;
+    background-color: #252525;
+    color: #fff;
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-family: 'Special Elite', cursive;
+  }
+  
+  button {
+    height: 60px;
+    background-color: rgba(250, 244, 244, 0.671);
+    border-radius: 5px;
+    border: 1px solid #979696;
+    
+    font-size: 2.5rem;
+    color: rgb(46, 45, 45);
+   
+    font-family: 'Special Elite', cursive;
+  }
+  
+  button:hover {
+    background-color: #bbbbbba6;
+  }
+  
+  .operator {
+    color: #fc0606;
+    font-weight: bolder;
+  }
+  
+  .all-clear {
+    background-color: #b4d1abc9;
+    border-color: #93f366d5;
+    color: rgb(63, 61, 61);
+  }
+  
+  .all-clear:hover {
+    background-color: #b4d1abfd;
+  }
+  
+  .equal-sign {
+    background-color: #a0b4a3d3;
+    border-color: #939e93;
+    color: rgb(250, 246, 246);
+    height: 100%;
+    grid-area: 2 / 4 / 6 / 5;
+  }
+  
+  .equal-sign:hover {
+    background-color: #b4d1abfd;
+    
+  }
+  
+  .calculator-keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
